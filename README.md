@@ -1,6 +1,5 @@
 [![CI Disabled](https://img.shields.io/badge/CI-disabled-lightgrey)](https://github.com/jckim3/iputils)
-[![Coverity Status](https://scan.coverity.com/projects/1944/badge.svg?flat=1)](https://scan.coverity.com/projects/1944)
-
+- [![Coverity Status](https://scan.coverity.com/projects/1944/badge.svg?flat=1)](https://scan.coverity.com/projects/1944)
 The iputils package is set of small useful utilities for Linux networking.
 
 ## Installation

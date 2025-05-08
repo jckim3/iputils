@@ -4,10 +4,15 @@
 The iputils package is set of small useful utilities for Linux networking.
 
 ## Installation
-```
-$ ./configure && meson build
-# cd builddir && meson install
-```
+```bash
+# 1. Configure and create the build directory
+meson setup build
+
+# 2. Compile the project
+ninja -C build
+
+# 3. (Optional) Install to your system (requires sudo)
+sudo ninja -C build install
 
 Configuration can be adjusted (prefix, what is being build, etc.), see
 [`meson_options.txt`](https://github.com/iputils/iputils/blob/master/meson.build),

@@ -1,8 +1,9 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
 # Copyright (c) 2021-2024 Petr Vorel <pvorel@suse.cz>
+# on: 를 #를 빼면 동작한다. 
 
 name: "CI: docker based builds"
-on: [push, pull_request]
+#on: [push, pull_request]
 
 jobs:
   job:
